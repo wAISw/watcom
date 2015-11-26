@@ -27,11 +27,11 @@
                     ctrl
                         .getInfo()
                         .then(function successCallback(response) {
-                            $compile(elem.append(response.data));
+                            $compile(elem.append('<div ng-controller="kpiPeopleCtrl as kpi">'+response.data+"</div>"));
                         }, function errorCallback(response) {
                             alert("что то пошло не так!");
                         });
-                }, 1000);
+                }, 5000);
             }
         };
     }

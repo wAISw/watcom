@@ -31,7 +31,7 @@
                     }, function errorCallback(response) {
                         alert("что то пошло не так!");
                     });
-                }, 1000);
+                }, 5000);
             }
         };
     }
