@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66177d84-61b8-449b-b73b-4775e4d003ce" name="Default" comment="``">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/css/style.css" afterPath="$PROJECT_DIR$/app/dev/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/index.html" afterPath="$PROJECT_DIR$/app/dev/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/kpiIndex.js" afterPath="$PROJECT_DIR$/app/dev/js/kpiIndex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/kpiInvolved.js" afterPath="$PROJECT_DIR$/app/dev/js/kpiInvolved.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/kpiLoyal.js" afterPath="$PROJECT_DIR$/app/dev/js/kpiLoyal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/kpiNew.js" afterPath="$PROJECT_DIR$/app/dev/js/kpiNew.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/kpiPeople.js" afterPath="$PROJECT_DIR$/app/dev/js/kpiPeople.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/kpiTime.js" afterPath="$PROJECT_DIR$/app/dev/js/kpiTime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/js/script.js" afterPath="$PROJECT_DIR$/app/dev/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/templates/index.html" afterPath="$PROJECT_DIR$/app/dev/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/templates/involved.html" afterPath="$PROJECT_DIR$/app/dev/templates/involved.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/templates/loyal.html" afterPath="$PROJECT_DIR$/app/dev/templates/loyal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/templates/new.html" afterPath="$PROJECT_DIR$/app/dev/templates/new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/templates/people.html" afterPath="$PROJECT_DIR$/app/dev/templates/people.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dev/templates/time.html" afterPath="$PROJECT_DIR$/app/dev/templates/time.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/css/style.css" afterPath="$PROJECT_DIR$/app/prod/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/index.html" afterPath="$PROJECT_DIR$/app/prod/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/js/main.js" afterPath="$PROJECT_DIR$/app/prod/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/templates/index.html" afterPath="$PROJECT_DIR$/app/prod/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/templates/involved.html" afterPath="$PROJECT_DIR$/app/prod/templates/involved.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/templates/loyal.html" afterPath="$PROJECT_DIR$/app/prod/templates/loyal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/templates/new.html" afterPath="$PROJECT_DIR$/app/prod/templates/new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/templates/people.html" afterPath="$PROJECT_DIR$/app/prod/templates/people.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/prod/templates/time.html" afterPath="$PROJECT_DIR$/app/prod/templates/time.html" />
-    </list>
+    <list default="true" id="66177d84-61b8-449b-b73b-4775e4d003ce" name="Default" comment="``" />
     <ignored path="angular_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -557,8 +531,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26626325" sideWeight="0.50851583" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.4914842" order="1" side_tool="false" content_ui="combo" />
