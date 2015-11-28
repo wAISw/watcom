@@ -16,6 +16,7 @@ gulp.task('connect', function () {
 // watch
 gulp.task('watch', function () {
     gulp.watch('app/dev/**/*.js', ['js']);
+    gulp.watch('app/dev/**/*.json', ['json']);
     gulp.watch('app/dev/**/*.css', ['css']);
     gulp.watch('app/dev/**/*.html', ['html']);
 });
@@ -55,5 +56,16 @@ gulp.task('js', function () {
         .pipe(connect.reload());
 });
 
+
+// json
+gulp.task('json', function () {
+    gulp.src([
+            "app/dev/db/*.json"
+
+        ])
+        .pipe(gulp.dest('app/prod/db'))
+        .pipe(connect.reload());
+});
+
 // default
-gulp.task('default', ['connect', 'js', 'css', 'html', 'watch']);
+gulp.task('default', ['connect', 'js', 'json', 'css', 'html', 'watch']);

@@ -81,7 +81,7 @@ span.kpi_cot__val {
     z-index: 50;
 }
 .form_wrap input {
-    margin: 15px auto 20px;
+    margin: 15px auto 0px;
     display: block;
     padding: 5px;
     color: #777;

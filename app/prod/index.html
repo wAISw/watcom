@@ -6,28 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="form_back"></div>
-<div class="container" main-directive>
+<div class="container" main-directive  ng-controller="mainCtrl as ctrl">
+    <div class="form_back" ng-click="ctrl.setKpiData(kpiModel);"></div>
     <div class="form_wrap hidden">
         <div class="form_header">Форма редактирования kpi</div>
         <form>
-            <input name="kpi_name" type="text">
-            <input name="kpi_val" type="text">
+            <input ng-model="kpiModel.name" name="kpi_name" type="text" placeholder="{{changeKpiData.name}}">
+            <input ng-model="kpiModel.val" name="kpi_val" type="text" placeholder="{{changeKpiData.val}}">
         </form>
     </div>
-    <div class="kpi_container">
-        <div kpi-people-directive class="kpi_wrap"></div>
-        <div kpi-time-directive class="kpi_wrap"></div>
-        <div kpi-loyal-directive class="kpi_wrap"></div>
-        <div kpi-new-directive class="kpi_wrap"></div>
-        <div kpi-involved-directive class="kpi_wrap"></div>
-        <div kpi-index-directive class="kpi_wrap"></div>
-    </div>
-    <div class="kpi_container">
-        <div kpi-people-directive class="kpi_wrap"></div>
-        <div kpi-time-directive class="kpi_wrap"></div>
-        <div kpi-loyal-directive class="kpi_wrap"></div>
-    </div>
+    <div class="kpi_container first"> </div>
+    <div class="kpi_container second"> </div>
 </div>
 <script src="js/main.js"></script>
 </body>
